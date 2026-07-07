@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi trabajo de sueños</title>
+
+  <!-- ===== CSS ===== -->
+  <style>
+    /* Selector de elemento */
+    body {
+      background: #f0f4f8;        /* background */
+      color: #333333;             /* color */
+      font-family: Arial, sans-serif;
+      margin: 0;                  /* margin */
+      padding: 20px;              /* padding */
+    }
+
+    /* Selector de ID */
+    #titulo {
+      background: #1a3c6e;
+      color: #ffffff;
+      width: 100%;                /* width */
+      height: 70px;               /* height */
+      margin: 0 0 20px 0;
+      padding: 15px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    /* Selector de CLASE */
+    .seccion {
+      background: #ffffff;
+      width: 80%;                 /* width */
+      margin: 20px auto;          /* margin */
+      padding: 20px;              /* padding */
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .resaltado {
+      color: #d63384;             /* color para el <span> */
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;                /* width */
+      border-collapse: collapse;
+      margin-top: 10px;           /* margin */
+    }
+
+    th {
+      background: #1a3c6e;        /* background */
+      color: #ffffff;            /* color */
+      padding: 10px;             /* padding */
+    }
+
+    td {
+      padding: 10px;             /* padding */
+      border: 1px solid #cccccc;
+    }
+
+    .imagen {
+      width: 300px;              /* width */
+      height: auto;              /* height */
+      display: block;
+      margin: 15px auto;         /* margin */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Título con selector de ID -->
+  <h1 id="titulo">Mi trabajo de sueños</h1>
+
+  <!-- DIV que agrupa la sección de descripción -->
+  <div class="seccion">
+    <h2>Descripción</h2>
+    <p>
+      Mi trabajo de sueños es ser <span class="resaltado">Desarrollador de Videojuegos</span>.
+      Me encantaría diseñar y programar mis propios juegos, combinando la lógica de la
+      programación con la creatividad de contar historias y crear mundos interactivos que
+      otras personas puedan disfrutar.
+    </p>
+  </div>
+
+  <!-- DIV que agrupa la lista -->
+  <div class="seccion">
+    <h2>¿Por qué me gustaría este trabajo?</h2>
+    <ul>
+      <li>Puedo unir la <span class="resaltado">programación</span> con la creatividad.</li>
+      <li>Da la libertad de crear ideas y proyectos propios.</li>
+      <li>Es un campo en constante crecimiento y aprendizaje.</li>
+    </ul>
+  </div>
+
+  <!-- DIV que agrupa la tabla -->
+  <div class="seccion">
+    <h2>Pasos o requisitos para lograrlo</h2>
+    <table>
+      <tr>
+        <th>Paso</th>
+        <th>Descripción</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Aprender lenguajes de programación (C#, C++, Python).</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Dominar un motor de videojuegos como Godot o Unity.</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Crear un portafolio con proyectos propios.</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Buscar experiencia en equipos de desarrollo.</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- DIV que agrupa la imagen -->
+  <div class="seccion">
+    <h2>Imagen relacionada</h2>
+    <img class="imagen"
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/240px-JavaScript-logo.png"
+         alt="Programación de videojuegos">
+  </div>
+
+</body>
+</html>
